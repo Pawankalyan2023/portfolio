@@ -10,7 +10,7 @@ export const Bio = {
     "I am currently working as a student in CIT Chennai , I am an passionate and aspiring web developer I would love to do the cinematography and video editing.",
   github: "https://github.com/Lordoflegend2003",
   resume:
-    "https://drive.google.com/file/d/1ffZrcMcn8UatXGIaautbbqpV7ADNaETA/view?usp=sharing",
+    "https://drive.google.com/file/d/10nlxDKGypeLtx2ehQBlKXqo6J2J2Buh6/view",
   linkedin: "https://www.linkedin.com/in/b-pawan-kalyan-6a2903218/",
   twitter: "https://mobile.twitter.com/pawan41847304",
   insta: "https://instagram.com/bpawankalyanp?igshid=ZDdkNTZiNTM=",
