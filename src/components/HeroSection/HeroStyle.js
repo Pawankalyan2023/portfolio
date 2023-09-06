@@ -79,6 +79,7 @@ export const HeroRightContainer = styled.div`
   display: flex;
   order: 2;
   justify-content: end;
+  ${'' /* background-color: white; */}
   gap: 12px;
   @media (max-width: 960px) {
     order: 1;
@@ -102,13 +103,13 @@ export const Img = styled.img`
   border: 2px solid ${({ theme }) => theme.primary};
 
   @media (max-width: 768px) {
-    max-width: 400px;
-    max-height: 400px;
+    max-width: 250px;
+    max-height: 300px;
   }
 
   @media (max-width: 640px) {
-    max-width: 280px;
-    max-height: 280px;
+    max-width: 200px;
+    max-height: 300px;
   }
 `;
 

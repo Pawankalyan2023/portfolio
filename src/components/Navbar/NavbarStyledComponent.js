@@ -41,7 +41,8 @@ export const NavLogo = styled(LinkR)`
 export const Span = styled.div`
     padding: 0 4px;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 28px;
+    ${'' /* background-color: black; */}
 `;
 export const NavItems = styled.ul`
     width: 100%;

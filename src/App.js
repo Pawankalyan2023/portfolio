@@ -14,6 +14,9 @@ import Experience from "./components/Experience";
 import Education from "./components/Education";
 import ProjectDetails from "./components/ProjectDetails";
 import styled from "styled-components";
+import Coding from "./components/Coding/index.js";
+
+
 
 const Body = styled.div`
   background-color: ${({ theme }) => theme.bg};
@@ -38,6 +41,7 @@ function App() {
           <HeroSection />
           <Wrapper>
             <Skills />
+            <Coding/>
             <Experience />
           </Wrapper>
           <Projects openModal={openModal} setOpenModal={setOpenModal} />
