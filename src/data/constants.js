@@ -240,7 +240,7 @@ export const experiences = [
   },
   {
     id: 1,
-    img: "https://6501792362d55b5acf04bb9b--storied-fudge-48a1a7.netlify.app/assets/LGM.jpg",
+    img: "https://helpful-kulfi-f35e99.netlify.app/assets/LGM.jpg",
     role: "Web Development Internship",
     company: "Lets Grow More",
     date: "June 2023 - July 2023",
@@ -256,7 +256,7 @@ export const experiences = [
   },
   {
     id: 2,
-    img: "https://6501792362d55b5acf04bb9b--storied-fudge-48a1a7.netlify.app/assets/oasis.jpg",
+    img: "https://helpful-kulfi-f35e99.netlify.app/assets/oasis.jpg",
     role: "Android App Developer",
     company: "Oasis Infobyte",
     date: " May 2023 - June 2023",
@@ -275,7 +275,7 @@ export const experiences = [
 export const education = [
   {
     id: 0,
-    img: "https://6501792362d55b5acf04bb9b--storied-fudge-48a1a7.netlify.app/assets/chennai.jpg",
+    img: "https://helpful-kulfi-f35e99.netlify.app/assets/chennai.jpg",
     school: "Chennai Institute of Technology",
     date: "Oct 2021 - Sep 2025",
     grade: "8.75 CGPA",
@@ -310,7 +310,7 @@ export const projects = [
     description:
     "Official Website for a service based company",
     image:
-      "https://6501792362d55b5acf04bb9b--storied-fudge-48a1a7.netlify.app/assets/mill.png",
+      "https://helpful-kulfi-f35e99.netlify.app/assets/mill.png",
     tags: [
       "HTML",
       "CSS",
@@ -329,7 +329,7 @@ export const projects = [
     description:
       "Focuses on enhancing the customer experience by providing a convenient and accurate tracking system for e-commerce orders.",
     image:
-      "https://6501792362d55b5acf04bb9b--storied-fudge-48a1a7.netlify.app/assets/OETS.png",
+      "https://helpful-kulfi-f35e99.netlify.app/assets/OETS.png",
     tags: [
       "HTML",
       "CSS",
@@ -346,7 +346,7 @@ export const projects = [
     description:
       "Full fledged socially communicating application for effective communication between different users.",
     image:
-      "https://6501792362d55b5acf04bb9b--storied-fudge-48a1a7.netlify.app/assets/sm.png",
+      "https://helpful-kulfi-f35e99.netlify.app/assets/sm.png",
     tags: [
       "React",
       "Readux",
@@ -365,7 +365,7 @@ export const projects = [
     description:
       "The project is generally combined with a college official website that will provide u a section of content to get ur results on the go within the website",
     image:
-      "https://6501792362d55b5acf04bb9b--storied-fudge-48a1a7.netlify.app/assets/strms.png",
+      "https://helpful-kulfi-f35e99.netlify.app/assets/strms.png",
     tags: ["HTML", "CSS", "Javascript", "MySQL", "PHP" ,"Apache"],
     category: "web app",
     github: "https://github.com/Lordoflegend2003/LGM-SRMS",
@@ -377,7 +377,7 @@ export const projects = [
     description:
       "Simple quiz Application that will provide u with the no of questions and each answers gets counted and printed as a result after the end of the competition",
     image:
-      "https://6501792362d55b5acf04bb9b--storied-fudge-48a1a7.netlify.app/assets/quiz.png",
+      "https://helpful-kulfi-f35e99.netlify.app/assets/quiz.png",
     tags: [
       "Flutter",
       "Dart",
@@ -407,7 +407,7 @@ export const projects = [
     description:
       "A task management application for creating, organizing, and tracking to-do items.",
     image:
-      "https://6501792362d55b5acf04bb9b--storied-fudge-48a1a7.netlify.app/assets/todo.png",
+      "https://helpful-kulfi-f35e99.netlify.app/assets/todo.png",
     tags: ["Flutter", "Dart", "Android Studio"],
     category: "android app",
     github: "https://github.com/Lordoflegend2003/OIBSIP-/tree/master/todoapp",
