@@ -74,13 +74,14 @@ const TimelineSection = styled.div`
 
 
 
+
 const index = () => {
     return (
         <Container id="experience">
             <Wrapper>
                 <Title>Experience</Title>
                 <Desc>
-                    My work experience as a software engineer and working on different companies and projects.
+                    My work experience as a different role and on different companies and projects.
                 </Desc>
                 <TimelineSection>
                     <Timeline>

@@ -22,15 +22,21 @@ const Projects = ({openModal,setOpenModal}) => {
           }
           <Divider />
           {toggle === 'web app' ?
-            <ToggleButton active value="web app" onClick={() => setToggle('web app')}>WEB APP'S</ToggleButton>
+            <ToggleButton active value="web app" onClick={() => setToggle('web app')}>Web App</ToggleButton>
             :
-            <ToggleButton value="web app" onClick={() => setToggle('web app')}>WEB APP'S</ToggleButton>
+            <ToggleButton value="web app" onClick={() => setToggle('web app')}>Web App</ToggleButton>
           }
           <Divider />
           {toggle === 'android app' ?
-            <ToggleButton active value="android app" onClick={() => setToggle('android app')}>ANDROID APP'S</ToggleButton>
+            <ToggleButton active value="android app" onClick={() => setToggle('android app')}>Android App</ToggleButton>
             :
-            <ToggleButton value="android app" onClick={() => setToggle('android app')}>ANDROID APP'S</ToggleButton>
+            <ToggleButton value="android app" onClick={() => setToggle('android app')}>Android App</ToggleButton>
+          }
+          <Divider />
+          {toggle === 'dataengineer app' ?
+            <ToggleButton active value="android app" onClick={() => setToggle('dataengineer app')}>Data Pipelines</ToggleButton>
+            :
+            <ToggleButton value="android app" onClick={() => setToggle('dataengineer app')}>Data Pipelines</ToggleButton>
           }
         </ToggleButtonGroup>
         <CardContainer>
