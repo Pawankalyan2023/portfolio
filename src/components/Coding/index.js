@@ -80,13 +80,13 @@ const Codingcard = styled.div`
 
 `
 
-const CodingTitle = styled.h2`
-  font-size: 28px;
-  font-weight: 600;
-  color: ${({ theme }) => theme.text_secondary};
-  margin-bottom: 20px;
-  text-align: center;
-`
+// const CodingTitle = styled.h2`
+//   font-size: 28px;
+//   font-weight: 600;
+//   color: ${({ theme }) => theme.text_secondary};
+//   margin-bottom: 20px;
+//   text-align: center;
+// `
 
 const CodingList = styled.div`
  font-size: 22px;
@@ -102,29 +102,29 @@ const CodingList = styled.div`
   ${'' /* margin-bottom: 20px; */}
 `
 
-const CodingItem = styled.div`
-  font-size: 16px;
-  font-weight: 400;
-  color: ${({ theme }) => theme.text_primary + 80};
-  border: 1px solid ${({ theme }) => theme.text_primary + 80};
-  border-radius: 12px;
-  padding: 12px 16px;
-  width: 100%;
-  height: fit-content;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 8px;
-  @media (max-width: 768px) {
-    font-size: 14px;
-    padding: 8px 12px;
-    background-color: white;
-  }
-  @media (max-width: 500px) {
-    font-size: 14px;
-    padding: 6px 12px;
-  }
-`
+// const CodingItem = styled.div`
+//   font-size: 16px;
+//   font-weight: 400;
+//   color: ${({ theme }) => theme.text_primary + 80};
+//   border: 1px solid ${({ theme }) => theme.text_primary + 80};
+//   border-radius: 12px;
+//   padding: 12px 16px;
+//   width: 100%;
+//   height: fit-content;
+//   display: flex;
+//   align-items: center;
+//   justify-content: center;
+//   gap: 8px;
+//   @media (max-width: 768px) {
+//     font-size: 14px;
+//     padding: 8px 12px;
+//     background-color: white;
+//   }
+//   @media (max-width: 500px) {
+//     font-size: 14px;
+//     padding: 6px 12px;
+//   }
+// `
 
 const CodingImage = styled.img`
   width: 50px;

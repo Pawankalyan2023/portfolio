@@ -1,6 +1,5 @@
 import React from 'react'
 import styled from 'styled-components';
-import _default from '../../themes/default';
 import { certification } from '../../data/constants';
 
 
@@ -89,21 +88,7 @@ const Skill = styled.div`
 
 `
 
-const SkillTitle = styled.h2`
-  font-size: 28px;
-  font-weight: 600;
-  color: ${({ theme }) => theme.text_secondary};
-  margin-bottom: 20px;
-  text-align: center;
-`
 
-const SkillList = styled.div`
-  display: flex;
-  justify-content: center; 
-  flex-wrap: wrap;
-  gap: 12px;
-  margin-bottom: 20px;
-`
 
 const SkillItem = styled.div`
   font-size: 16px;

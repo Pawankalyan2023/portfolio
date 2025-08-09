@@ -10,7 +10,7 @@ export const Container = styled.div`
   align-items: center;
   position: relative;
   z-index: 1;
-  padding: 150px 20px;
+  padding: 80px 20px; /* reduced padding for smaller screens */
 `;
 
 export const Title = styled.h2`
@@ -20,7 +20,7 @@ export const Title = styled.h2`
   margin-bottom: 10px;
   color: ${({ theme }) => theme.text_primary};
   @media (max-width: 768px) {
-    font-size: 32px;
+    font-size: 28px;
   }
 `;
 
@@ -31,7 +31,8 @@ export const SubDesc = styled.p`
   color: ${({ theme }) => theme.text_secondary};
   margin-bottom: 50px;
   @media (max-width: 768px) {
-    font-size: 16px;
+    font-size: 15px;
+    margin-bottom: 30px;
   }
 `;
 
@@ -50,8 +51,16 @@ export const Timeline = styled.div`
     bottom: 0;
     left: 50%;
     margin-left: -2px;
+
+    @media (max-width: 1024px) { /* tablet and smaller */
+      content: none; /* remove the element entirely */
+      width: 0;
+      height: 0;
+      background: none;
+    }
   }
 `;
+
 
 export const TimelineItem = styled.div`
   padding: 20px 40px;
@@ -60,8 +69,9 @@ export const TimelineItem = styled.div`
 
   @media (max-width: 768px) {
     width: 100%;
-    padding-left: 70px;
-    padding-right: 25px;
+    padding-left: 50px; /* space for timeline line */
+    padding-right: 20px;
+    margin-bottom: 30px;
   }
 `;
 
@@ -72,6 +82,12 @@ export const TimelineContent = styled.div`
   position: relative;
   border-radius: 8px;
   box-shadow: 0px 4px 15px rgba(0,0,0,0.1);
+  font-size: 16px;
+
+  @media (max-width: 768px) {
+    font-size: 14px;
+    padding: 15px;
+  }
 `;
 
 export const TimelineLeft = styled(TimelineItem)`
@@ -83,6 +99,13 @@ export const TimelineLeft = styled(TimelineItem)`
     right: -8px;
     border: 8px solid transparent;
     border-left-color: ${({ theme }) => theme.card};
+
+    @media (max-width: 768px) {
+      left: 12px;
+      right: auto;
+      border: 8px solid transparent;
+      border-right-color: ${({ theme }) => theme.card};
+    }
   }
 `;
 
@@ -95,6 +118,12 @@ export const TimelineRight = styled(TimelineItem)`
     left: -8px;
     border: 8px solid transparent;
     border-right-color: ${({ theme }) => theme.card};
+
+    @media (max-width: 768px) {
+      left: 12px;
+      border: 8px solid transparent;
+      border-right-color: ${({ theme }) => theme.card};
+    }
   }
 
   @media (max-width: 768px) {
