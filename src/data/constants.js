@@ -560,5 +560,19 @@ export const certification = [
     desc : "Introduction to Docker",
     link : "https://www.coursera.org/account/accomplishments/verify/4SBQJTHZTT4P",
   },
-  
+  {
+    id : 3,
+    desc : "Cisco Certified Network Associate (CCNA)",
+    link : "https://www.credly.com/badges/8953ba15-013e-4088-8d36-14acdb5e0b97/public_url"
+  },
+  {
+    id : 4,
+    desc : "The Complete 2024 Web Development.",
+    link : "https://udemy-certificate.s3.amazonaws.com/pdf/UC-13cf1488-6286-45c5-9119-727c04dcb0d2.pdf"
+  },
+  {
+    id : 5,
+    desc : "Google Cloud Fundamentals: Core Infrastructure.",
+    link : "https://www.coursera.org/account/accomplishments/verify/Y9TK9BDAA3NU"
+  }
 ]
